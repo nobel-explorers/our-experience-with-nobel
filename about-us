@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Desktop/bootstrap-4.3.1/scss" crossorigin="anonymous">
+
+    <title>About Us</title>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm-12 bg-dark navbar-dark">
+   <a class="navbar-brand" href="#">
+    <img src="https://nobelexplorers.com/wp-content/uploads/2018/01/Nobel-Explorers-White-Horizontal-copy-705x389.png" alt="Logo of Nobel explorers" style="width:200px;">
+  </a>
+
+<!-- Links -->
+<ul class="navbar-nav">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Our Journey</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">What we Learned</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><b>About Us</b></a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact Us</a>
+  </li>
+</ul>
+</nav>
+    <main>
+      <h1>About the Interns</h1>
+    <!--  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <p>My name is Arthur Liao.</p>  </div>   -->
+        <div class="card" style="col-sm-12 col-md-6">
+    <div class="card-body">
+      <img class="col-md-3" src="img_avatar1.png" alt="Card image">
+      <h4 class="card-title">Aditya</h4>
+      <p class="card-text">An intern. </p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+
+  <div class="card" style="col-sm-12 col-md-6">
+<div class="card-body">
+<img class="col-md-3" src="img_avatar1.png" alt="Card image">
+<h4 class="card-title">Arthur </h4>
+<p class="card-text">Another intern.</p>
+]</div>
+</div>
+
+      </main>
+  </body>
+</html>
