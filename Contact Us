@@ -11,58 +11,49 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Font Awesome CSS -->
     <link href="fonts/css/all.css" rel="stylesheet"> <!--load all styles -->
-
-     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
     <!-- Our CSS file -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <title>About Us - Nobel Interns </title>
-
   </head>
   <body>
 
-
   <div class="card" style="width:300px">
-  <!--<div class="card-body">-->
+   <div class="card-body">
     <h4 class="card-title">Nadja</h4>
     <img src="img_avatar1.png" alt="Card image">
     <p class="card-text">Nadja Bio</p>
   </div>
 </div>
   <div class="card" style="width:300px">
-  <!--<div class="card-body">-->
+   <div class="card-body">
     <h4 class="card-title">Andrew</h4>
     <img src="img_avatar1.png" alt="Card image">
     <p class="card-text">Andrew bio</p>
   </div>
 </div>
   <div class="card" style="width:300px">
-  <!--<div class="card-body">-->
+   <div class="card-body">
       <h4 class="card-title">#</h4>
       <img src="img_avatar1.png" alt="Card image">
     <p class="card-text">#1 bio</p>
   </div>
 </div>
   <div class="card" style="width:300px">
-  
-    <!--<div class="card-body">-->
+   <div class="card-body">
     <h4 class="card-title">#</h4>
     <img src="img_avatar1.png" alt="Card image">
     <p class="card-text">#2 bio</p>
   </div>
 </div>
   <div class="card" style="width:300px">
-  
-    <!--<div class="card-body">-->
+   <div class="card-body">
     <h4 class="card-title">Aniko</h4>
     <img src="img_avatar1.png" alt="Card image">
     <p class="card-text">Aniko bio</p>
   </div>
 </div>
   <div class="card" style="width:300px">
-  
-    <!--<div class="card-body">-->
+   <div class="card-body">
     <h4 class="card-title">#</h4>
     <img src="img_avatar1.png" alt="Card image">
     <p class="card-text">#3 bio</p>
