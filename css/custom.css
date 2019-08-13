@@ -1,3 +1,26 @@
 .bg-blue {
 	background-color: #1bd3c8;
 }
+
+h1 {
+	font-size: 50px;
+}
+
+.smaller-title {
+	font-size: 25px;
+}
+
+.center-menu {
+	margin: auto;
+}
+
+.nav-item {
+	font-weight: 700;
+	font-size: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.nav-item a {
+	color: #fff !important;
+}
