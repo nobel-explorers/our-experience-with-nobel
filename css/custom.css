@@ -24,3 +24,7 @@ h1 {
 .nav-item a {
 	color: #fff !important;
 }
+
+#myCarousel img{
+	width: 50%;
+}
