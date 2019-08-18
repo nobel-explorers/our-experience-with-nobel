@@ -25,6 +25,31 @@ h1 {
 	color: #fff !important;
 }
 
-#myCarousel img{
-	width: 50%;
+.smaller-carousel{
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+#homeTitle{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#media{
+	text-align: right;
+	padding-bottom: 50px;
+}
+/* Font Awesome */
+.fab{
+	font-size: 50px;
+}
+.fa-facebook-square{
+	color:#3B5998;
+}
+.fa-instagram{
+	color:#C13584;
+}
+.fa-twitter{
+	color: #1CA1F2;
 }
