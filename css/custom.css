@@ -2,12 +2,74 @@
 	background-color: #1bd3c8;
 }
 
-h1 {
-	font-size: 50px;
+navbar-link{
+	color: #fff;
+}
+navbar-item{
+	color: #fff;
+}
+navbar-link:hover{
+	color: red;
+}
+navbar-item:hover{
+	color: red;
 }
 
+h1 {
+	font-size: 50px;
+	color:#006400	;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 30px;
+	color:#006400	;
+
+
+}
+
+p{
+	color: #008000;
+}
+
+p2{
+	color: black;
+}
+
+p3{
+	color: #fff;
+}
+
+h4{
+color: #006400	;
+}
+
+a{
+	color: blue;
+	font-weight: bold;
+}
+
+a:hover{
+	color: green;
+	font-weight: bold;
+
+}
+
+a:active{
+	color: white;
+	font-weight: bold;
+
+}
+
+a:visited{
+	color: purple;
+	font-weight: bold;
+
+}
 .smaller-title {
 	font-size: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .center-menu {
@@ -25,31 +87,37 @@ h1 {
 	color: #fff !important;
 }
 
-.smaller-carousel{
-	width: 75%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
+#myCarousel img{
+	width: 50%;
 }
-#homeTitle{
-	margin-top: 50px;
-	margin-bottom: 50px;
+
+.block1{
+	float:left;
+	width:50%;
+	padding: 10px;
+
 }
-#media{
-	text-align: right;
-	padding-bottom: 50px;
+
+#video{
+	border: dotted 10px #FFF	 ;
+	background-color: #006400	;
+float:left;
+width:68%;
+color:#fff;
 }
-/* Font Awesome */
-.fab{
-	font-size: 50px;
+
+#videocaption{
+padding-left: 20px;
+	float:right;
+	width:32%;
 }
-.fa-facebook-square{
-	color:#3B5998;
+
+footer{
+	float:right;
+padding-bottom: 20px;
 }
-.fa-instagram{
-	color:#C13584;
-}
-.fa-twitter{
-	color: #1CA1F2;
+
+img{
+	padding-left: 5px;
+	padding-right: 5px;
 }
