@@ -4,9 +4,13 @@
 
 navbar-link{
 	color: #fff;
+	font-family: Raleway;
+
 }
 navbar-item{
 	color: #fff;
+	font-family: Raleway;
+
 }
 navbar-link:hover{
 	color: red;
@@ -17,19 +21,20 @@ navbar-item:hover{
 
 h1 {
 	font-size: 50px;
-	color:#006400	;
+	font-family: Raleway;
+	color:#008800	;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 h2 {
 	font-size: 30px;
-	color:#006400	;
-
-
+	color:black	;
 }
 
 p{
-	color: #008000;
+	color: #fff;
+	font-family: Raleway;
 }
 
 p2{
@@ -42,6 +47,8 @@ p3{
 
 h4{
 color: #006400	;
+font-weight: 800;
+font-family: Raleway;
 }
 
 a{
@@ -95,14 +102,13 @@ a:visited{
 	float:left;
 	width:50%;
 	padding: 10px;
+	text-decoration-color: #ffffff;
+	background-color: #9abe65;
 
 }
 
 #video{
-	border: dotted 10px #FFF	 ;
-	background-color: #006400	;
-float:left;
-width:68%;
+	border: solid 10px #008000;
 color:#fff;
 }
 
