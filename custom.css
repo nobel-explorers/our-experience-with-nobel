@@ -1,0 +1,121 @@
+.bg-blue {
+	background-color: #1bd3c8;
+}
+
+navbar-link{
+	color: #fff;
+	font-family: Raleway;
+
+}
+navbar-item{
+	color: #fff;
+	font-family: Raleway;
+
+}
+navbar-link:hover{
+	color: red;
+}
+navbar-item:hover{
+	color: red;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Raleway;
+	color:#008800	;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 30px;
+	color:black	;
+}
+
+p{
+	color: #fff;
+	font-family: Raleway;
+}
+
+h4{
+color: #006400	;
+font-weight: 800;
+font-family: Raleway;
+}
+
+a{
+	color: blue;
+	font-weight: bold;
+}
+
+a:hover{
+	color: green;
+	font-weight: bold;
+
+}
+
+a:active{
+	color: white;
+	font-weight: bold;
+
+}
+
+a:visited{
+	color: purple;
+	font-weight: bold;
+
+}
+.smaller-title {
+	font-size: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.center-menu {
+	margin: auto;
+}
+
+.nav-item {
+	font-weight: 700;
+	font-size: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.nav-item a {
+	color: #fff !important;
+}
+
+#myCarousel img{
+	width: 50%;
+}
+
+.block1{
+	float:left;
+	width:50%;
+	padding: 10px;
+	text-decoration-color: #ffffff;
+	background-color: #9abe65;
+
+}
+
+#video{
+	border: solid 10px #008000;
+color:#fff;
+}
+
+#videocaption{
+padding-left: 20px;
+	float:right;
+	width:32%;
+}
+
+footer{
+	float:right;
+padding-bottom: 20px;
+}
+
+img{
+	padding-left: 5px;
+	padding-right: 5px;
+}
