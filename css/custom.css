@@ -3,6 +3,11 @@
 	background-color: #1bd3c8;
 }
 
+/*Menu alignment*/
+.center-menu {
+	margin: auto;
+}
+
 /* Color of the links on the nav bar when not selected */
 navbar-link{
 	color: #fff;
@@ -134,11 +139,28 @@ padding-left: 20px;
 	padding: 10px;
 }
 
+/*Person's title*/
+#smaller-caption {
+	font-size: 12px;
+
+}
+
+
 #block2img{
 	display: block;
 margin-left: auto;
 margin-right: auto;
 width: 33.3%;
+}
+
+/*Width/style of Mr. Sachs' quotes on the "Instructors" page*/
+#mainimg{
+	float:left;
+
+}
+#mainblock{
+	padding-top:10px;
+	float:right;
 }
 
 /* INDEX page */
