@@ -1,5 +1,5 @@
 
-/* Blue background */
+/* NAVBAR */
 .bg-blue {
 	background-color: #1bd3c8;
 }
@@ -8,7 +8,6 @@
 navbar-link{
 	color: #fff;
 	font-family: Raleway;
-	/* Color of the links on the nav bar when not selected */
 }
 navbar-item{
 	color: #fff;
@@ -19,13 +18,28 @@ navbar-item{
 navbar-link:hover{
 	color: red;
 }
-
-/*Color of the links on the nav bar when someones hovers over it */
 navbar-item:hover{
 	color: red;
 }
 
-/*Heading one styles*/
+/*Menu alignment*/
+/* Used on interns page only */
+.center-menu {
+	margin: auto;
+}
+.nav-item {
+	font-weight: 700;
+	font-size: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.nav-item a {
+	color: #fff !important;
+}
+
+
+/* CSS for ALL pages */
+/*Heading styles*/
 h1 {
 	font-size: 50px;
 	font-family: Raleway;
@@ -33,14 +47,10 @@ h1 {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-/*Heading two styles*/
 h2 {
 	font-size: 30px;
 	color:black	;
 }
-
-/*Heading four styles*/
-
 h4{
 color: #006400	;
 font-weight: 800;
@@ -52,60 +62,49 @@ p{
 	font-family: Raleway;
 }
 
+/*Footer style*/
+footer{
+	float:right;
+	padding-bottom: 20px;
+}
+/*footer style for the position of social media icons */
+/*  This shouldn't be effecting all img's,
+img{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+*/
 
-/*link color*/
+/*Link color*/
 a{
 	color: blue;
 	font-weight: bold;
 }
-/*link color when user is hovering over it*/
 a:hover{
 	color: green;
 	font-weight: bold;
 
 }
-/*link color when user clicks on a link*/
 a:active{
 	color: white;
 	font-weight: bold;
 
 }
-/*link color when user has visited that link*/
 a:visited{
 	color: purple;
 	font-weight: bold;
 
 }
-/*custom title on "Interns" page*/
+
+
+/* INTERNS page */
+/*custom title*/
 #smaller-title {
 	font-size: 25px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-
-/*Menu alignment*/
-.center-menu {
-	margin: auto;
-}
-
-/*Styles of items in the menu*/
-
-.nav-item {
-	font-weight: 700;
-	font-size: 30px;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-/*Styles of links in the menu*/
-.nav-item a {
-	color: #fff !important;
-}
-/*Width of images in the gallery on homepage (index.html)*/
-#myCarousel img{
-	width: 50%;
-}
-/*Width/style of intern quotes on the "Interns" page*/
+/*Width/style of intern quotes*/
 .block1{
 	float:left;
 	width:50%;
@@ -114,28 +113,20 @@ a:visited{
 	background-color: #9abe65;
 
 }
-/*style of testimonial video on the "Interns" page*/
+/*style of testimonial video*/
 #video{
 	border: solid 10px #008000;
 color:#fff;
 }
-/*width of testimonial caption on the "Interns" page*/
+/*width of testimonial caption*/
 #videocaption{
 padding-left: 20px;
 	float:right;
 	width:32%;
 }
-/*footer style for all pages */
-footer{
-	float:right;
-padding-bottom: 20px;
-}
-/*footer style for the position of social media icons */
-img{
-	padding-left: 5px;
-	padding-right: 5px;
-}
-/* Index */
+
+
+/* INDEX page */
 .smaller-carousel{
 	width: 75%;
 	display: block;
@@ -151,6 +142,7 @@ img{
 	text-align: right;
 	padding-bottom: 50px;
 }
+
 /* Font Awesome */
 .fab{
 	font-size: 50px;
