@@ -109,24 +109,24 @@ a:visited{
 	padding-bottom: 50px;
 }
 /*Width/style of intern quotes*/
-.block1{
-	float:left;
-	width:50%;
+#block1{
 	padding: 10px;
 	text-decoration-color: #ffffff;
 	background-color: #9abe65;
 
+
 }
 /*style of testimonial video*/
 #video{
+	float:left;
 	border: solid 10px #008000;
 color:#fff;
+height: 25rem;
 }
 /*width of testimonial caption*/
 #videocaption{
 padding-left: 20px;
 	float:right;
-	width:32%;
 }
 
 
@@ -139,7 +139,7 @@ padding-left: 20px;
 
 /*Person's title*/
 #smaller-caption {
-	font-size: 12px;
+	font-size: 1rem;
 
 }
 
