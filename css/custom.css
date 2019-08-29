@@ -40,7 +40,10 @@ navbar-item:hover{
 .nav-item a {
 	color: #fff !important;
 }
-
+/* Size of the logo */
+.logo{
+	max-width: 150px;
+}
 
 /* CSS for ALL pages */
 /*Heading styles*/
@@ -140,10 +143,7 @@ padding-left: 20px;
 /*Person's title*/
 #smaller-caption {
 	font-size: 1rem;
-
 }
-
-
 #block2img{
 	display: block;
 margin-left: auto;
@@ -161,6 +161,7 @@ max-width: 100%;
 	padding-top:10px;
 }
 
+
 /* INDEX page */
 .smaller-carousel{
 	width: 75%;
@@ -170,12 +171,25 @@ max-width: 100%;
 	margin-bottom: 50px;
 }
 #homeTitle{
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 #media{
 	text-align: right;
 	padding-bottom: 50px;
+}
+#media a:hover, #myCarousel a:hover{
+	text-decoration: none;
+	color:inherit;
+	opacity: .85;
+}
+.dots{
+	padding-bottom: 25px;
+}
+.arrow-btn{
+	font-size: 30px;
+	margin: 0px 30px;
+
 }
 
 /* Font Awesome */
@@ -190,4 +204,7 @@ max-width: 100%;
 }
 .fa-twitter{
 	color: #1CA1F2;
+}
+.fa-arrow-alt-circle-left, .fa-arrow-alt-circle-right{
+	color: #1bd3c8;
 }

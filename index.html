@@ -23,7 +23,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light bg-blue">
 
 			<a class="navbar-brand" href="./index.html">
-				<img src="https://nobelexplorers.com/wp-content/uploads/2018/01/Nobel-Explorers-White-Horizontal-copy-705x389.png" alt="Logo of Nobel explorers" style="max-width:200px;">
+				<img src="https://nobelexplorers.com/wp-content/uploads/2018/01/Nobel-Explorers-White-Horizontal-copy-705x389.png" alt="Logo of Nobel explorers" class="logo">
 			</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,13 +59,15 @@
 
 		<div class="container" style="text-align: center;">
 
-			<div class= "page-header" id="homeTitle"><h1>Nobel Interns Gen I</h1></div>
+			<div class= "page-header" id="homeTitle">
+				<h1>Nobel Interns Gen I</h1>
+			</div>
 
 			<!-- Gallery AKA carousel -->
 
 			<div id="myCarousel" class="carousel slide smaller-carousel" data-ride="carousel">
 			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
+			  <ol class="carousel-indicators dots">
 			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			    <li data-target="#myCarousel" data-slide-to="1"></li>
 			    <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -74,9 +76,7 @@
 
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
-			  	<!-- COMMENT: class was item instead of carousel-item -->
 			    <div class="carousel-item active">
-			      <!-- COMMENT added img class -->
 			      <img class="d-block w-100" src="./img/group_meet.jpeg" alt="Team hiking">
 			    </div>
 
@@ -93,15 +93,15 @@
 			    </div>
 			  </div>
 
-			  <!-- Left and right controls -->
-			  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
+				<!-- Left and right controls -->
+	      <a class="left carousel-control arrow-btn" href="#myCarousel" role="button" data-slide="prev">
+	            <span class="fas fa-arrow-alt-circle-left" aria-hidden="false"></span>
+	        <span class="sr-only">Previous</span>
+	      </a>
+	      <a class="right carousel-control arrow-btn" href="#myCarousel" role="button" data-slide="next">
+	       <span class="fas fa-arrow-alt-circle-right" aria-hidden="false"></span>
+	        <span class="sr-only">Next</span>
+	      </a>
 		</div>
 
 		<p style="text-align: justify; margin-bottom: 50px;">
@@ -115,10 +115,9 @@
 		</p>
 
 		<div id="media">
-			<span class="glyphicon glyphicon-flash" aria-hidden="true"></span> <!-- DELETE -->
-			<i class="fab fa-facebook-square"></i>
-			<i class="fab fa-instagram"></i>
-			<i class="fab fa-twitter"></i>
+			<a href="https://www.facebook.com/nobelexplorers/"><i class="fab fa-facebook-square"></i></a>
+			<a href="https://www.instagram.com/nobelexplorers/"><i class="fab fa-instagram"></i></a>
+			<a href="https://twitter.com/nobel_coaching"><i class="fab fa-twitter"></i></a>
 		</div>
 
 		<!-- Optional JavaScript -->
