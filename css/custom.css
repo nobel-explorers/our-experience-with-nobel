@@ -2,35 +2,6 @@
 .bg-blue {
 	background-color: #1bd3c8;
 }
-
-/*Menu alignment*/
-.center-menu {
-	margin: auto;
-}
-
-/* Color of the links on the nav bar when not selected */
-navbar-link{
-	color: #fff;
-	font-family: Raleway;
-}
-navbar-item{
-	color: #fff;
-	font-family: Raleway;
-
-}
-/*Color of the links on the nav bar when someones hovers over it */
-navbar-link:hover{
-	color: red;
-}
-navbar-item:hover{
-	color: red;
-}
-
-/*Menu alignment*/
-/* Used on interns page only */
-.center-menu {
-	margin: auto;
-}
 .nav-item {
 	font-weight: 700;
 	font-size: 30px;
@@ -40,13 +11,15 @@ navbar-item:hover{
 .nav-item a {
 	color: #fff !important;
 }
+.nav-item a:hover, .current-pg a{
+	text-decoration: underline;
+}
 /* Size of the logo */
 .logo{
 	max-width: 150px;
 }
 
 /* CSS for ALL pages */
-/*Heading styles*/
 h1 {
 	font-size: 50px;
 	font-family: Raleway;
@@ -63,26 +36,15 @@ color: #006400	;
 font-weight: 800;
 font-family: Raleway;
 }
-/*Pargraph styles*/
 p{
 	color: black;
 	font-family: Raleway;
 }
 
-/*Footer style*/
 footer{
 	float:right;
 	padding-bottom: 20px;
 }
-/*footer style for the position of social media icons */
-/*  This shouldn't be effecting all img's,
-img{
-	padding-left: 5px;
-	padding-right: 5px;
-}
-*/
-
-/*Link color*/
 a{
 	color: blue;
 	font-weight: bold;
@@ -90,7 +52,6 @@ a{
 a:hover{
 	color: green;
 	font-weight: bold;
-
 }
 a:active{
 	color: white;
