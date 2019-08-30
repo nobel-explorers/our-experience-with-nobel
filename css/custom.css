@@ -10,11 +10,12 @@
 }
 .nav-item a {
 	color: #fff !important;
+	font-weight: normal;
 }
 .nav-item a:hover, .current-pg a{
-	color: #008800 !important;
 	text-decoration: underline;
 	text-decoration-color: #fff;
+	font-weight: bold;
 }
 /* Size of the logo */
 .logo{
