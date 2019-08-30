@@ -125,6 +125,23 @@ max-width: 100%;
 	padding-top:10px;
 }
 
+/* INSTRUCTORS page */
+/*Width/style of instructors quotes on the "Instructors" page*/
+#block2{
+	float:left;
+	text-align: center;
+	width:33.3%;
+	padding: 10px;
+}
+
+#block2img{
+	display: block;
+margin-left: auto;
+margin-right: auto;
+width: 33.3%;
+}
+
+
 
 /* INDEX page */
 .smaller-carousel{
