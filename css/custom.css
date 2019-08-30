@@ -12,7 +12,9 @@
 	color: #fff !important;
 }
 .nav-item a:hover, .current-pg a{
+	color: #008800 !important;
 	text-decoration: underline;
+	text-decoration-color: #fff;
 }
 /* Size of the logo */
 .logo{
