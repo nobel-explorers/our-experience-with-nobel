@@ -3,23 +3,32 @@
 	background-color: #1bd3c8;
 }
 .nav-item {
-	font-weight: 700;
-	font-size: 30px;
+	font-size: 24px;
 	padding-left: 5px;
 	padding-right: 5px;
+	width: 170px;
 }
 .nav-item a {
 	color: #fff !important;
-	font-weight: normal;
+	font-weight: 400;
+	-webkit-transition: font-weight .1s ease;
+	-moz-transition: font-weight .1s ease;
+	-o-transition: font-weight .1s ease;
+	transition: font-weight .1s ease;
+	text-align: center;
 }
-.nav-item a:hover, .current-pg a{
-	text-decoration: underline;
+.nav-item a:hover {
 	text-decoration-color: #fff;
-	font-weight: bold;
+	font-weight: 700;
 }
+
+.current-pg a {
+	font-weight: 700;
+}
+
 /* Size of the logo */
-.logo{
-	max-width: 150px;
+.logo {
+	max-width: 125px;
 }
 
 /* CSS for ALL pages */
@@ -33,11 +42,13 @@ h1 {
 h2 {
 	font-size: 30px;
 	color:black	;
+	font-family: Raleway;
+}
 }
 h4{
-color: #006400	;
-font-weight: 800;
-font-family: Raleway;
+	color: #006400	;
+	font-weight: 800;
+	font-family: Raleway;
 }
 p{
 	color: black;
@@ -76,8 +87,9 @@ a:visited{
 	padding-bottom: 50px;
 }
 /*Width/style of intern quotes*/
-#block1{
+.block1{
 	padding: 10px;
+	margin: 5px;
 	text-decoration-color: #ffffff;
 	background-color: #9abe65;
 
@@ -89,6 +101,7 @@ a:visited{
 	border: solid 10px #008000;
 color:#fff;
 height: 25rem;
+padding: 0;
 }
 /*width of testimonial caption*/
 #videocaption{
@@ -108,10 +121,12 @@ padding-left: 20px;
 #smaller-caption {
 	font-size: 1rem;
 }
-#block2img{
+.block2img{
 	display: block;
 margin-left: auto;
 margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
 min-width: 33.3%;
 max-width: 100%;
 padding-bottom:3%;
@@ -187,4 +202,42 @@ padding-bottom:3%;
 }
 .fa-arrow-alt-circle-left, .fa-arrow-alt-circle-right{
 	color: #1bd3c8;
+}
+
+@media (max-width: 574px) {
+	.col-xs-2 {
+		width: 80%;
+	}
+}
+
+.mr-n6, .mx-n6 {
+    margin-right: -17%!important;
+}
+
+.ml-n6, .mx-n6 {
+    margin-left: -17%!important;
+}
+
+
+.blockquote-custom {
+  position: relative;
+  font-size: 16px;
+  background-color: #9abe65;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+  background-color: #1bd3c8;
+}
+
+h5, h4 {
+	font-family: Raleway;
 }

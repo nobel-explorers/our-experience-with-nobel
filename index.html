@@ -20,19 +20,20 @@
 
 	<body>
 		<!-- Nav bar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-blue">
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-blue">
+			<div class="col-lg-2 col-xl-1 col-sm-2 col-xs-2">
+				<a class="navbar-brand" href="./index.html">
+					<img src="./img/Nobel%20Explorers%20Logo.png" alt="Logo of Nobel explorers" class="logo">
+				</a>
+			</div>
 
-			<a class="navbar-brand" href="./index.html">
-				<img src="https://nobelexplorers.com/wp-content/uploads/2018/01/Nobel-Explorers-White-Horizontal-copy-705x389.png" alt="Logo of Nobel explorers" class="logo">
-			</a>
-
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse center-menu" id="navbarSupportedContent">
+			<div class="collapse navbar-collapse center-menu " id="navbarSupportedContent">
 
-				<ul class="navbar-nav">
+				<ul class="navbar-nav mx-auto">
 
 					<li class="nav-item current-pg">
 						<a class="nav-link" href="index.html">Homepage</a>
@@ -55,6 +56,7 @@
 					</li>
 				</ul>
 			</div>
+			<div class="d-xs-none d-sm-none d-lg-inline col-md-2 col-lg-2 col-xl-1"></div>
 		</nav>
 
 		<div class="container" style="text-align: center;">
@@ -94,25 +96,27 @@
 			  </div>
 
 				<!-- Left and right controls -->
-	      <a class="left carousel-control arrow-btn" href="#myCarousel" role="button" data-slide="prev">
-	            <span class="fas fa-arrow-alt-circle-left" aria-hidden="false"></span>
-	        <span class="sr-only">Previous</span>
-	      </a>
-	      <a class="right carousel-control arrow-btn" href="#myCarousel" role="button" data-slide="next">
-	       <span class="fas fa-arrow-alt-circle-right" aria-hidden="false"></span>
-	        <span class="sr-only">Next</span>
-	      </a>
+		      <a class="carousel-control-prev arrow-btn ml-n6" href="#myCarousel" role="button" data-slide="prev">
+		            <span class="fas fa-arrow-alt-circle-left" aria-hidden="false"></span>
+		        <span class="sr-only">Previous</span>
+		      </a>
+		      <a class="carousel-control-next arrow-btn mr-n6" href="#myCarousel" role="button" data-slide="next">
+		       <span class="fas fa-arrow-alt-circle-right" aria-hidden="false"></span>
+		        <span class="sr-only">Next</span>
+		      </a>
 		</div>
 
-		<p style="text-align: justify; margin-bottom: 50px;">
-			We are the Nobel Explorers interns of 2019. Nobel Explorers is an organization founded by Andrew Sachs,
-			with the mission to spread accessible STEM education to students around the world.
-			We are a group of thirteen interns who are learning more about Nobel and helping it reach its goal.
-			Not only do we learn various skills about coding and web design,
-			but we also learn how to communicate and work with people in effective ways, including through the internet,
-			due to the fact that team members are in different parts of the world.
-			We hope you will want to intern at Nobel by looking at what else we have done which will be presented throughout the remainder of the website.
-		</p>
+		<div class="container mb-5">
+			<p style="text-align: justify;">
+				We are the Nobel Explorers interns of 2019. Nobel Explorers is an organization founded by Andrew Sachs,
+				with the mission to spread accessible STEM education to students around the world.
+				We are a group of thirteen interns who are learning more about Nobel and helping it reach its goal.
+				Not only do we learn various skills about coding and web design,
+				but we also learn how to communicate and work with people in effective ways, including through the internet,
+				due to the fact that team members are in different parts of the world.
+				We hope you will want to intern at Nobel by looking at what else we have done which will be presented throughout the remainder of the website.
+			</p>
+		</div>
 
 		<div id="media">
 			<a href="https://www.facebook.com/nobelexplorers/"><i class="fab fa-facebook-square"></i></a>
