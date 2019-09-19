@@ -99,9 +99,9 @@ a:visited{
 #video{
 	float:left;
 	border: solid 10px #008000;
-color:#fff;
-height: 25rem;
-padding: 0;
+	color:#fff;
+	height: 31rem;
+	padding: 0;
 }
 /*width of testimonial caption*/
 #videocaption{
@@ -112,7 +112,7 @@ padding-left: 20px;
 
 /* INSTRUCTORS page */
 /*Width/style of instructors quotes on the "Instructors" page*/
-#block2{
+.block2{
 	float:left;
 	text-align: center;
 }
@@ -135,7 +135,6 @@ padding-bottom:3%;
 /*Width/style of Mr. Sachs' quotes on the "Instructors" page*/
 #mainimg{
 	float:left;
-	width:50%;
 	padding-top: 5%;
 }
 #mainblock{
@@ -146,16 +145,36 @@ padding-bottom:3%;
 }
 /* INSTRUCTORS page */
 /*Width/style of instructors quotes on the "Instructors" page*/
-#block2{
+.block2{
 	float:left;
 	text-align: center;
 	width:33.3%;
 	padding-top: 5%;
 }
 
+.faded-blue {
+	color: #50A6C2;
+}
 
+.green {
+	color: #6B8E23;
+}
 
+.light-blue {
+	color: #1E90FF;
+}
 
+.light-purple {
+	color: #8A2BE2;
+}
+
+.warm-grey {
+	color: #708090;
+}
+
+.red {
+	color: #FF4500;
+}
 
 /* INDEX page */
 .smaller-carousel{
@@ -237,6 +256,8 @@ padding-bottom:3%;
   left: 50px;
   background-color: #1bd3c8;
 }
+
+
 
 h5, h4 {
 	font-family: Raleway;
